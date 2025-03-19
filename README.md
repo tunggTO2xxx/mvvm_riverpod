@@ -1,4 +1,4 @@
-# mvvm_riverpod_base
+# Flutter Base
 
 A new Flutter project.
 

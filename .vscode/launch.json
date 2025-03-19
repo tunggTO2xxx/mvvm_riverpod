@@ -1,0 +1,47 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "mvvm_riverpod_base (dev)",
+            "program": "lib/env/main_development.dart",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "debug",
+            "args": [
+                "--flavor",
+                "Development",
+                "--target",
+                "lib/env/main_development.dart"
+            ]
+        },
+        {
+            "name": "mvvm_riverpod_base (stg)",
+            "program": "lib/env/main_staging.dart",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "debug",
+            "args": [
+                "--flavor",
+                "Staging",
+                "--target",
+                "lib/env/main_staging.dart"
+            ]
+        },
+        {
+            "name": "mvvm_riverpod_base (prod)",
+            "program": "lib/env/main_production.dart",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "debug",
+            "args": [
+                "--flavor",
+                "Production",
+                "--target",
+                "lib/env/main_production.dart"
+            ]
+        }
+    ]
+}

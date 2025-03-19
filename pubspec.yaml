@@ -1,0 +1,105 @@
+name: mvvm_riverpod_base
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=3.3.2 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  
+  flutter_localizations:  
+    sdk: flutter
+
+  #A
+  #B
+  #C
+
+  #D
+  dio: ^5.8.0+1
+
+  #E
+  
+  #F
+  flutter_riverpod: ^2.6.1
+  freezed: ^3.0.3
+  freezed_annotation: ^3.0.0
+  flutter_svg: ^2.0.10+1
+
+  #G
+  go_router: ^14.6.2
+
+  #H
+  hive_flutter: ^1.1.0
+
+  #I
+  intl: any
+  intl_utils: any
+
+  #J
+  json_annotation: ^4.9.0
+  json_serializable: ^6.9.4
+
+  #K
+  #L
+  #M
+  #N
+  #O
+  #P
+  #Q
+
+  #R
+  retrofit: ^4.4.2
+
+  #S
+  #T
+  #U
+  #V
+  #W
+  #X
+  #Y
+  #Z
+  
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  build_runner:
+  flutter_gen_runner:
+  flutter_lints: ^3.0.0
+  retrofit_generator: ^9.1.9
+  pretty_dio_logger: ^1.4.0
+  logger: ^2.5.0
+
+# https://pub.dev/packages/intl_utils
+# flutter pub run intl_utils:generate
+flutter_intl:
+  # Required. Must be set to true to activate the plugin. Default: false
+  enabled: true
+  # Optional. Sets the name for the generated localization class. Default: S
+  class_name: L10n
+  # Optional. Sets the main locale used for generating localization files. Default: en
+  main_locale: vi
+  # Optional. Sets the directory of generated localization files. Default: lib/generated
+  output_dir: lib/l10n
+
+# https://pub.dev/packages/flutter_gen
+# fluttergen -c pubspec.yaml
+flutter_gen:
+  output: lib/generated/ # Optional (default: lib/gen/)
+  assets:
+    enabled: true
+
+  # Optional
+  integrations:
+    flutter_svg: true
+    image: true
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+    - assets/icons/
